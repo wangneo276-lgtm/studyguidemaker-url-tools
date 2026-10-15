@@ -1,16 +1,16 @@
 {
   "name": "studyguidemaker-url-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Offline URL builder for Study Guide Maker source, audience, flashcard, and quiz pages. Not an official SDK.",
   "type": "module",
   "license": "MIT",
   "homepage": "https://studyguidemaker.net/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bbwdadfg/studyguidemaker-url-tools.git"
+    "url": "git+https://github.com/wangneo276-lgtm/studyguidemaker-url-tools.git"
   },
   "bugs": {
-    "url": "https://github.com/bbwdadfg/studyguidemaker-url-tools/issues"
+    "url": "https://github.com/wangneo276-lgtm/studyguidemaker-url-tools/issues"
   },
   "files": [
     "index.js",
