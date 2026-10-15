@@ -1,0 +1,12 @@
+name: cocoapods
+on:
+  workflow_dispatch:
+jobs:
+  trunk:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Push pod
+        env:
+          COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+        run: pod trunk push --allow-warnings --skip-import-validation *.podspec
