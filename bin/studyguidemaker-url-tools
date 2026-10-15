@@ -1,0 +1,2 @@
+#!/bin/sh
+printf '%s %s\n' 'Study Guide Maker' 'https://studyguidemaker.net/'

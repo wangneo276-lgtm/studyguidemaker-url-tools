@@ -1,3 +1,3 @@
-module github.com/bbwdadfg/studyguidemaker-url-tools
+module github.com/wangneo276-lgtm/studyguidemaker-url-tools
 
 go 1.22

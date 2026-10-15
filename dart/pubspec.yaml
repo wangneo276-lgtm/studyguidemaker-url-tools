@@ -1,0 +1,7 @@
+name: studyguidemaker_url_tools
+description: Offline URL builder for Study Guide Maker source, audience, flashcard, and quiz pages. Not an official SDK.
+version: 0.1.1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+homepage: https://studyguidemaker.net/
+repository: https://github.com/wangneo276-lgtm/studyguidemaker-url-tools

@@ -5,3 +5,14 @@ target/
 *.egg-info/
 **/*.egg-info/
 .DS_Store
+dotnet/**/bin/
+dotnet/**/obj/
+java/target/
+*.gem
+*.nupkg
+*.src.rock
+cpan/**/blib/
+cpan/**/pm_to_blib
+cpan/Makefile
+cpan/META.*
+cpan/MYMETA.*
