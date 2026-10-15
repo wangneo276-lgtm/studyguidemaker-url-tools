@@ -1,0 +1,15 @@
+[package]
+name = "studyguidemaker-url-tools"
+version = "0.1.0"
+edition = "2021"
+description = "Offline URL builder for Study Guide Maker source, audience, flashcard, and quiz pages. Not an official SDK."
+license = "MIT"
+homepage = "https://studyguidemaker.net/"
+repository = "https://github.com/bbwdadfg/studyguidemaker-url-tools"
+readme = "README.md"
+keywords = ["study", "flashcards", "url-builder"]
+include = ["src/**", "tests/**", "README.md", "LICENSE", "Cargo.toml"]
+
+[lib]
+name = "studyguidemaker_url_tools"
+path = "src/lib.rs"

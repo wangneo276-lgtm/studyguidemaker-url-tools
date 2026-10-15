@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "studyguidemaker-url-tools"
+version = "0.1.0"
+description = "Offline URL builder for Study Guide Maker source, audience, flashcard, and quiz pages. Not an official SDK."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "bbwdadfg" }]
+
+[project.urls]
+Homepage = "https://studyguidemaker.net/"
+Repository = "https://github.com/bbwdadfg/studyguidemaker-url-tools"
+Issues = "https://github.com/bbwdadfg/studyguidemaker-url-tools/issues"
+
+[tool.setuptools.packages.find]
+where = ["python"]
+include = ["studyguidemaker_url_tools*"]

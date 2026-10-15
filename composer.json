@@ -1,0 +1,20 @@
+{
+  "name": "bbwdadfg/studyguidemaker-url-tools",
+  "description": "Offline URL builder for Study Guide Maker source, audience, flashcard, and quiz pages. Not an official SDK.",
+  "type": "library",
+  "license": [
+    "MIT"
+  ],
+  "homepage": "https://studyguidemaker.net/",
+  "support": {
+    "source": "https://github.com/bbwdadfg/studyguidemaker-url-tools"
+  },
+  "autoload": {
+    "psr-4": {
+      "StudyguidemakerUrlTools\\": "php/src/StudyguidemakerUrlTools/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  }
+}
