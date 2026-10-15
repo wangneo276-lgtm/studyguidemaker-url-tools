@@ -16,3 +16,6 @@ cpan/**/pm_to_blib
 cpan/Makefile
 cpan/META.*
 cpan/MYMETA.*
+
+dart/.dart_tool/
+dart/pubspec.lock
